@@ -1,6 +1,6 @@
 def salariomes():
     try:
-        a=int(input('Quando você ganha por hora:'))
+        a=int(input('Quando voce ganha por hora:'))
         b=int(input('Quando horas você trabalha por mês:'))
         s=a*b
         print('Você recebe por mês',s)
