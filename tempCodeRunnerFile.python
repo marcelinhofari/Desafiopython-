@@ -1,4 +1,7 @@
-r=int(input('Digite o raio do circulo:'))
-x=3.14
-print('A area do circulo é',x*(r**2))
-
+def divisordesom():
+    try:
+        n=int(input('Digite um numero:'))
+        
+    except ValueError:
+        print('Erro. Valor inválido.')
+divisordesom()
