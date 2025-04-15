@@ -1,9 +1,8 @@
-def salariomes():
+def calor():
     try:
-        a=int(input('Quando você ganha por hora:'))
-        b=int(input('Quando horas você trabalha por mês:'))
-        s=a*b
-        print('Você recebe por mês',s)
+        f=int(input('DIgite a temperatura em farenheit:'))
+        c= (f-32)*5/9
+        print(f'A temperatura em celsius é {c:.2f}')
     except ValueError:
         print('Erro. Valor inválido.')
-salariomes()
+calor()
