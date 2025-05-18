@@ -7,3 +7,4 @@ def salariomes():
     except ValueError:
         print('Erro. Valor inválido.')
 salariomes()
+#thanks
