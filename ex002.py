@@ -5,4 +5,4 @@ def escrita_basica():
     Except ValueErro:
     print('Erro. Digite um valor valido')
 escrita_basica()
-  
+#tanks
