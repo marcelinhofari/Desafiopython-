@@ -13,6 +13,7 @@ try:
     n4=float(input('Digite a quarta nota:'))
     resultado_final = calcular_media(n1,n2,n3,n4)
     print(resultado_final)
+    
 except ValueError:
     print('ERRO, Digite numero validos.')
 #thanks
